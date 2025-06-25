@@ -2,3 +2,5 @@
 .idea/
 *.spec
 build
+dist
+data
