@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
+from mark_metrics import mark
 from collections import defaultdict
-import recmetrics
 
 def get_user_top_n(user_id, n, model):
     top_n_rec = pd.DataFrame(model.loc[user_id])
@@ -33,7 +33,7 @@ def get_algo_mark(predictions, k_items=10):
 
     cf_mark = []
     for K in np.arange(1, k_items + 1):
-        cf_mark.extend([recmetrics.mark(actual, cf_pred, k=K)])
+        cf_mark.extend([mark(actual, cf_pred, k=K)])
 
     return cf_mark
 
