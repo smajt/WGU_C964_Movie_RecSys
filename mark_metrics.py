@@ -2,9 +2,9 @@ from typing import List
 import numpy as np
 
 """
-Source code for these functions was taken from the recmetrics library. The library is no longer maintained with many dependency errors,
-so I just copied the functions I need. Source link to the file these functions were taken from: 
-https://github.com/statisticianinstilettos/recmetrics/blob/master/recmetrics/metrics.py
+Source code for these functions was copied from the recmetrics library. https://github.com/statisticianinstilettos/recmetrics
+The library is no longer maintained causing versioning errors with other project dependencies, so I just copied the functions I need. 
+Source link to the file these functions were taken from: https://github.com/statisticianinstilettos/recmetrics/blob/master/recmetrics/metrics.py
 """
 
 def _precision(predicted, actual):
