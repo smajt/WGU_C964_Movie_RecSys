@@ -1,4 +1,4 @@
-# WGU B.C.S. Capstone Movie Recommender System
+# WGU BSCS Capstone: BrickBreaker Movie Recommender System
 
 ## Compiling a Binary from Source
 With the source code and dependencies installed on a maching running the OS you wish to use the program with, compiling a new binary should be as simple as running `nicegui-pack --onefile --windowed --name "BrickBreaker Movies Recommender System" main.py`.
